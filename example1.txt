@@ -1,0 +1,11 @@
+#inlcude<stdio.h>
+#include<conio.h>
+
+int s[35] = "gh";
+
+void main(){
+	char c[10] = "msrit", f[] = "lksadasd
+	asdadadsada"a ;
+	strlen("hjkl);
+	a = a+/*b;
+}
