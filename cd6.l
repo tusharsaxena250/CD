@@ -8,8 +8,8 @@ int val;
 
 %%
 [a-zA-Z][a-zA-Z0-9]* {printf("\nEnter the value of the variable %s ", yytext);scanf("%d",&val);yylval=val;return id;}
-[0-9]+[.][0-0]* {yylval=atoi(yytext);return num;}
-[ \t] ;		/*skip whitespaces*/
+[0-9]+[.][0-9]* {yylval=atoi(yytext);return num;}
+[ \t] ;		/*skip the whitespaces*/
 \n {return 0;}
 . {return yytext[0];}
 %%
