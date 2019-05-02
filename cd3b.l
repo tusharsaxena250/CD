@@ -1,4 +1,4 @@
-/*COMMENT FORMAT CHECK*/
+
 
 %{
 #include<stdio.h>
