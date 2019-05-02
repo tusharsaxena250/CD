@@ -12,7 +12,7 @@ expression ([identifier]|[number]){operator}([identifier]|[number])
 %%
 \n { c++; }
 ^"#".+ ;
-^("int"|"float"|"char").+ ;
+^("int "|"float "|"char ").+ ;
 "void main()" ;
 {identifier}"="({expression}+";") { printf("Vallid expression in line no %d\t", c+1);ECHO;printf("\n");}
 {identifier}"="({number}|{identifier}";") { printf("Vallid expression in line no %d\t", c+1);ECHO;printf("\n");}
