@@ -1,3 +1,5 @@
+/*String checking*/
+
 %{
 #include<stdio.h>
 int c=0;
