@@ -1,3 +1,5 @@
+/*COMMENT FORMAT CHECK*/
+
 %{
 #include<stdio.h>
 int c = 0;
